@@ -33,16 +33,16 @@ aside{
     width: 20rem;
     margin: 1rem;
     border: 5px solid darkblue;
-    padding: 1rem solid;
+    padding: 1rem;
     background-color:white;
-    color: #333;
+    color: black;
     text-align: center;
 
-    aside img {
+ }
+  aside img {
         width: 200px;
         height: auto;
-    }
- }
+}
 
  footer{
     margin-top: 1em;
