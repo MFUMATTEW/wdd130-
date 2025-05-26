@@ -43,7 +43,7 @@ aside{
         width: 200px;
         height: auto;
 }
-
+/* The footer should generate after the main part  */
  footer{
     margin-top: 1em;
     border-top: 5px solid darkblue ;
