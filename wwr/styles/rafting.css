@@ -50,11 +50,6 @@ image{
 
 .title{
     text-align: center;
-    font-family: var(--heading-font);
-    color: var(--accent1-color);
-    font-size: 26px;
-    font-weight: bold;
-    margin-top: 20px;
 }
 
 .adventure{
