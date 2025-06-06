@@ -8,8 +8,79 @@
 }
 
 header{
-    background-color: white;
-    color: var(--primary-color)
+    margin: 1rem auto;
+    display : grid ;
+    grid-template-columns:  300px 1fr;
+    align-items: center;
+
+}
+.header-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-family: var(--body-font); 
+}
+.header-nav a {
+    display: block;
+    color: var(--accent1-color);
+    padding: 20px;
+    font-size: 1.5rem ;
+}
+.header-nav li{
+    flex: 1 1 auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+}
+
+.p{
+    flex: 1;
+    margin: 0 25px;
+}
+
+image{
+    width: 100px;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.adventure{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+figure{
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 20%;
+    margin: auto;
+}
+
+figcaption{
+    font: var(--heading-font);
+    padding: 5px;
+    text-align: center;
+}    
+
+.moto{
+    text-align: center;
+
 }
 
 * {
@@ -30,7 +101,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--accent1-color)
+    color: var(--accent1-color)   
 }
 
 nav, p, section, article{
@@ -38,8 +109,9 @@ nav, p, section, article{
     padding: 8px
 }
 
-.socialmedia a {
-    text-decoration: none;
+.socialmedia{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .hero {
