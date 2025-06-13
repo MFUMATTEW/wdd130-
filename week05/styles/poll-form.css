@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    color: rgb(143, 86, 53);
+    padding: 1em;
+    margin: 0;
+    background: rgb(185, 217, 228);
+}
+
+header{
+    margin: 0 auto;
+    width: 700px;
+}
+
+
+h1{
+    font-family: Lato;
+    font-size: 1.8rem ;
+    color: navy;
+    text-align: center;
+    margin: 1px ;
+
+}
+
+form{
+    width: 800px;
+    margin: 15px auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: #eeeeee;
+    display: grid;
+
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .4rem;
+    margin: 6px ;
+    border: 1.5px solid black;
+    padding: 1.5rem;
+
+}
+
+legend{
+    padding: 0.5rem;
+    font-size: 1.5em;
+    color: navy;
+}
+
+label, input, select, button, textarea {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont;
+
+}
+
+label{
+    text-align: right;
+    padding-right: 1.5rem;
+}
+
+input, select, textarea{
+    padding: 1.3rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"]{
+    width: 5em;
+    height: 1.3em;
+    vertical-align: bottom;
+}
+
+button{
+   margin: 1rem;  
+   padding: 1rem; 
+   color: white;
+   border: none;
+   border-radius: 1em;
+   background-color: navy;
+   font-size: 1.2em;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+footer{
+    text-align: center;
+    font-size: 0.8em;
+    margin: 1rem auto 0;
+}
