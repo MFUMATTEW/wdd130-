@@ -41,7 +41,7 @@ form{
 
 fieldset{
     display: grid;
-    grid-gap: .4rem;
+    grid-gap: 1.2rem;
     margin: 6px ;
     border: 1.5px solid black;
     padding: 1.5rem;
@@ -60,12 +60,12 @@ label, input, select, button, textarea {
 }
 
 label{
-    text-align: right;
+    text-align: center;
     padding-right: 1.5rem;
 }
 
 input, select, textarea{
-    padding: 1.3rem;
+    padding: 1rem;
     font-size: 1.1rem;
 }
 
@@ -75,14 +75,15 @@ input[type="checkbox"]{
     vertical-align: bottom;
 }
 
-button{
-   margin: 1rem;  
-   padding: 1rem; 
-   color: white;
-   border: none;
-   border-radius: 1em;
-   background-color: navy;
-   font-size: 1.2em;
+button{ 
+    width: 300px; 
+    margin: 1rem auto;  
+    padding: 1rem ; 
+    color: white;
+    border: none;
+    border-radius: 1em;
+    background-color: navy;
+    font-size: 1.2em;
 }
 
 button:hover {
@@ -93,4 +94,19 @@ footer{
     text-align: center;
     font-size: 0.8em;
     margin: 1rem auto 0;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    grid-template-columns: 1fr 1fr;
+    margin: 5px auto;
+}
+
+.column2{
+    grid-template-columns: 1fr 2fr;
+    margin: 5px 0;
 }
